@@ -1,0 +1,16 @@
+{
+  "name": "day-15/day-15",
+  "type": "project",
+  "license": "MIT",
+  "description": "A Simple  class  project",
+  "keywords": [],
+  "require": {
+
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
