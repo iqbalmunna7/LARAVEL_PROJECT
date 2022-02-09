@@ -1,15 +1,20 @@
 {
-  "name": "$vendor_name$/$package_name$",
-  "description": "$description$",
-  "minimum-stability": "$stability$",
-  "license": "$license$",
+  "name": "vendor_name/day-19",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
   "authors": [
     {
-      "name": "$author$",
-      "email": "$email$"
+      "name": "PHP with Laravel",
+      "email": "email@example.com"
     }
   ],
-  "require": {
-    $END$
+  "require": {},
+  "require-dev": {},
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
   }
 }

@@ -1,7 +1,1 @@
-<?php
-
-
-class Home
-{
-
-}
+<?php include

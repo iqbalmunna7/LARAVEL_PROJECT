@@ -8,7 +8,7 @@ class FullName
 {
     public $firstName;
     public $lastName;
-    public function  __construct($data)
+    public function  __construct($data=null)
     {
        // echo '<pre>';
        // print_r($data);
@@ -29,6 +29,7 @@ class FullName
     }
     public function getFullName()
     {
+        $this->FullName = $this;
         $result = $fullName->getFullName();
 
     }
