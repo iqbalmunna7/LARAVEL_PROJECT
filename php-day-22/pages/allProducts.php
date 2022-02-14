@@ -10,7 +10,7 @@
                         <h3 class="card-tittle"><?php echo $product['name'] ?></h3>
                         <p class=""><?php echo $product['price'] ?></p>
                         <p class="text-justify"><?php echo $product['description'] ?></p>
-                        <a href="" class="btn btn-outline-warning float-right">View</a>
+                        <a href=" action.php?pages=product-details&&product_id=<? php echo $product['id']; ?>"  class="btn btn-outline-warning float-right">View</a>
                     </div>
                 </div>
             </div>

@@ -24,6 +24,14 @@ if (isset($_GET['pages']))
         $products = $product->shortProducts($_GET['category_id']);
         include 'pages/allProducts.php';
     }
+    elseif ($_GET['pages'] == 'product-details')
+    {
+        $category = new Category();
+        $categories = $category->category();
+        $product = new products();
+        $prodctDetails = $product->getProductDetails($_GET'product_id');
+        include 'pages/productDetails.php';
+    }
 }
 
 

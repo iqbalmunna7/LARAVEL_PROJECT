@@ -15,7 +15,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="action.php?pages=all-products" class="nav-link">All Products</a></li>
             <?php foreach ($categories as $category){ ?>
-                <li class="nav-item"><a href="action.php?pages=category-products&&category_id=<?php echo $category['id'] ?>" class="nav-link"><?php echo $category['name']  ?> ></a></li>
+                <li class="nav-item"><a href="action.php?pages=category-products&&category_id=<?php echo $category['id']; ?>" class="nav-link"><?php echo $category['name']  ?> ></a></li>
             <?php } ?>
         </ul>
     </div>
